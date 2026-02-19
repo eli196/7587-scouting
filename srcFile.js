@@ -810,7 +810,7 @@ var resultsFile = `
                 <span class="report-count" id="count-badge">0 Scanned</span>
             </div>
 
-            <button class="btn btn-export" id="btn-export" onclick="exportToHTMLFile()">⤓ Export All to CSV</button>
+            <button class="btn btn-export" id="btn-export" onclick="exportToHTMLFile()">⤓ Export</button>
 
             <div id="report-list">
                 <p style="text-align:center; color:#999; margin:40px 0;">No reports scanned yet.</p>
