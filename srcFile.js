@@ -1127,7 +1127,6 @@ var resultsFile = `
 </body>
 </html>\`;
 
-            // Download Logic
             const blob = new Blob([htmlContent], { type: 'text/html' });
             const url = window.URL.createObjectURL(blob);
             const a = document.createElement("a");

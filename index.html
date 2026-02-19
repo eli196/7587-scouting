@@ -501,7 +501,7 @@ async function downloadOfflinePackage() {
         const a = document.createElement("a");
         a.href = URL.createObjectURL(blob);
         a.download = "scoutingWebsite.zip";
-        document.body.appendChild(a); // Append to body for better browser compatibility
+        document.body.appendChild(a);
         a.click();
         document.body.removeChild(a);
         
